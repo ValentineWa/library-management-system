@@ -81,10 +81,16 @@ $overdue = Borrowedbook::find()->where('expectedReturn > '.date('yy/m/d'))->andW
         	   <button type="button" class="btn btn-block btn-success btn-lg assignbook" style="width: 300px;"><i class="fa fa-plus" aria-hidden="true"></i> Assign a Book</button>
             </div>
             <?php }?>
-         
+          <?php if(Yii::$app->user->can('student')) {?>
             <div style="text-align: center;">
-                 <h2 class="box-title"><strong>BOOK ASSIGNMENTS</strong></h2>
+                 <h2 class="box-title"><strong>BOOKS BORROWED</strong></h2>
             </div>
+            <?php }?>
+            <?php if(Yii::$app->user->can('librarian')) {?>
+             <div style="text-align: center;">
+                 <h2 class="box-title"><strong>BOOK ASSIGNMENT</strong></h2>
+            </div>
+             <?php }?>
               <div class="box-tools">
                 <div class="input-group input-group-sm hidden-xs" style="width: 300px;">
                   <input type="text" name="table_search" class="form-control pull-right" placeholder="Search">
