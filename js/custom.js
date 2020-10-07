@@ -4,11 +4,11 @@ $(document).ready(function() {
 	$('.assignbook').click(function(e){
 			e.preventDefault();
 			
-		$.get('http://localhost:8080/lm/assignbook/assignbook',function(data) {
+		$.get('create',function(data) {
 		$('#assignbook').modal('show')
 		 		.find('#assignbookContent')
 
-			.html(data)
+			.html(data);
 			
 	});
 	});
@@ -19,25 +19,31 @@ $(document).ready(function() {
 		$('#addauthor').modal('show')
 		 		.find('#addauthorContent')
 
-			.html(data)
+			.html(data);
 			
 });
 });
 
-	$('.returnbook').click(function(e){
-			
+	
+          /*modal*/  $('.returnbook').click(function(e){
 			e.preventDefault();
-			
-		$.get('returnbook',function(data) {
-		$('#returnbook').modal('show')
-		 		.find('#returnbookContent')
-
-			.html(data)
-
-});
-});
+			var id = $(this).attr("val");
+	     /*action*/  $.get('returnbook?id='+id,function(data){
+		/*id*/		$('#returnbook').modal('show')
+			 		.find('#returnbookContent')
+			 		.html(data);
+        });
+	});
 
 
-
+  $('.requestbook').click(function(e){
+			e.preventDefault();
+			var id = $(this).attr("val");
+	      $.get('requestbook?id='+id,function(data){
+			$('#requestbook').modal('show')
+			 		.find('#requestbookContent')
+			 		.html(data);
+        });
+	});
 
 });

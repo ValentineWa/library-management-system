@@ -148,7 +148,24 @@ class BookController extends Controller
             'model' => $model,
         ]);
     }
-
+    
+    public function actionRequestbook()//this function is given when generating a form//
+    {
+        $model = new \frontend\models\Book();
+        
+        if ($model->load(Yii::$app->request->post() )) {
+            
+            if ($model->validate() && $model->save())
+            {
+                // form inputs are valid, do something here
+                return $this->redirect(['site/index']);
+            }
+        }
+        
+        return $this->renderAjax('requestbook', [  //ajax is used to load a specific form and not the whole page//
+            'model' => $model,
+        ]);
+    }
     /**
      * Deletes an existing Book model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
