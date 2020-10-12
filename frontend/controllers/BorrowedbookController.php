@@ -8,7 +8,8 @@ use frontend\models\BorrowedbookSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-
+use frontend\models\Student;
+use frontend\models\Book;
 /**
  * BorrowedbookController implements the CRUD actions for Borrowedbook model.
  */
@@ -64,20 +65,26 @@ class BorrowedbookController extends Controller
      */
    
     
-    public function actionCreate()
+ 
+    public function actionCreate($borrow=0)
     {
-        $model = new Borrowedbook();
+        $model = new BorrowedBook();
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            if($this->bookUpdate($model->bookId)){
+            if($this->bookUpdate($model->bookId,$borrow)){
                 return $this->redirect(['index']);
             }
         }
         return $this->renderAjax('create', [
             'model' => $model,
+            'borrow'=>$borrow,
         ]);
     }
-    
-    public function bookUpdate($bookId){ // this function is used to join and update the grid to current borrowed//
+    public function bookUpdate($bookId,$borrow){
+        if($borrow==1){
+            $command = \Yii::$app->db->createCommand('UPDATE book SET status=2 WHERE bookId='.$bookId);
+            $command->execute();
+            return true;
+        }
         $command = \Yii::$app->db->createCommand('UPDATE book SET status=1 WHERE bookId='.$bookId);
         $command->execute();
         return true;
@@ -115,7 +122,23 @@ class BorrowedbookController extends Controller
             'model'=>$model,
         ]);
     }
-  
+    public function actionApprove($id,$studentId){
+        $command = \Yii::$app->db->createCommand('UPDATE book SET status=1 WHERE bookId='.$id);
+        $command->execute();
+        $this->createNotification($studentId,$id);
+        return $this->redirect(['index']);
+    }
+    public function createNotification($studentId,$bookId){
+        $book = Book::find()->where(['bookId'=>$bookId])->one();
+        $icon= 'fa fa-book';
+        $userId = Student::find()->where(['studentId'=>$studentId])->one();
+        \Yii::$app->db->createCommand()->insert('notifications', [
+            'icon' => $icon,
+            'userId' => $userId->userId,
+            'message'=> 'Your request for book '.$book->bookName.' has been approved.'
+        ])->execute();
+        return true;
+    }
         
     /**
      * Deletes an existing Borrowedbook model.

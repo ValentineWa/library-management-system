@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 use frontend\models\Author;
 use yii\helpers\ArrayHelper;
-use yii\bootstrap\modal;
+use yii\bootstrap\Modal;
 /* @var $this yii\web\View */
 /* @var $model frontend\models\Book */
 /* @var $form yii\widgets\ActiveForm */

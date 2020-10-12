@@ -65,25 +65,7 @@ class BookController extends Controller
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
-  /*  public function actionCreate()
-    {
-        $model = new Book();
-        $bookAuthor = New BookAuthor();
-        
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            
-            $authorId = Yii::$app->request->post()['Bookauthor']['authorId'];
-            $bookId = $model->bookId;
-            if($this->bookauthors($authorId,$bookId)){
-                return $this->redirect(['index']);
-            }
-            return $this->redirect(['create']);
-        }
-        return $this->render('create', [
-            'model' => $model,
-            'bookAuthor'=>$bookAuthor
-        ]);
-    } */
+
     public function actionCreate()
     {
        
@@ -104,6 +86,7 @@ class BookController extends Controller
         
       
     }
+    
     
     public function actionAddauthor()
     {
@@ -146,72 +129,33 @@ class BookController extends Controller
             'model' => $model,
         ]);
     }
-    
- public function actionRequestbook()//this function is given when generating a form//
+    /**
+     * this function is given when generating a form
+     * @return \yii\web\Response|string
+     */
+ public function actionRequestbook()
     {
         $model = new \frontend\models\Borrowedbook();
          
         
-        if ($model->load(Yii::$app->request->post())) {
-            
-            if ($model->validate() && $model->save())
-            { 
-               
-                // form inputs are valid, do something here
-                return $this->redirect(['index']);
-            }
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            $this->afterBookRequest($model->bookId);
+            return $this->redirect(['index']);
         }
         
         return $this->renderAjax('requestbook', [  
             'model' => $model,
         ]);
-    } /* 
-    public function actionAddauthor()
-    {
-        $model = new \frontend\models\Author();
-        
-        if ($model->load(Yii::$app->request->post())) {
-            if ($model->validate() && $model->save()) {
-                return $this->redirect(['create']);}
-        }
-        
-        return $this->renderAjax('addauthor', [
-            'model' => $model,
-        ]);
     } 
-   public function actionRequestbook(){
-         
-       $model = new \frontend\models\Book();
-       var_dump(Yii::$app->request->post());
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            
-           if ($model->validate() && $model->save()) {
-                return $this->redirect(['index']); }
-        }
-      
-        return $this->renderAjax('requestbook',[
-            'model'=>$model,
-        ]);
-    } 
+  
     
-    public function actionRequestbook()
+    public function afterBookRequest($bookId)
     {
-        $model = new BorrowedBook();
-        
-        var_dump(Yii::$app->request->post());
-        
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            // if ($model->validate()) {
-            //     // form inputs are valid, do something here
-            //     return;
-            // }
-        }
-        
-        return $this->renderAjax('requestbook', [
-            'model' => $model,
-        ]);
+        $command = \Yii::$app->db->createCommand('UPDATE book SET status=2 WHERE bookId='.$bookId);
+        $command->execute();
+        return true;
     }
-    */
+    
     /**
      * Deletes an existing Book model.
      * If deletion is successful, the browser will be redirected to the 'index' page.

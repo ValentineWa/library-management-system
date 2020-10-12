@@ -17,7 +17,13 @@ return [
         ],
     ],
     'components' => [
-        
+        'notifier' => [
+            'class' => '\tuyakhov\notifications\Notifier',
+            'channels' => ['database' => [
+                'class' => '\tuyakhov\notifications\channels\ActiveRecordChannel'
+            ]
+            ],
+        ],
         'request' => [
             'csrfParam' => '_csrf-frontend',
         ],

@@ -1,11 +1,12 @@
 <?php
 
 namespace frontend\models;
+use frontend\models\Student;
 
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
 use frontend\models\Borrowedbook;
-
+use Yii;
 /**
  * BorrowedbookSearch represents the model behind the search form of `frontend\models\Borrowedbook`.
  */
@@ -40,8 +41,16 @@ class BorrowedbookSearch extends Borrowedbook
      */
     public function search($params)
     {
-        $query = Borrowedbook::find()->where(['actualReturnDate'=>NULL]);
-
+        
+       
+        if (Yii::$app->user->can('student')){
+            $studentId = Student::find()->where(['userId'=>Yii::$app->user->id])->One();
+            $query = BorrowedBook::find()->where(['actualReturnDate'=>NULL])->andWhere(['studentId'=>$studentId->studentId]);
+        }
+        if (Yii::$app->user->can('librarian')){
+           
+            $query = BorrowedBook::find()->where(['actualReturnDate'=>NULL]);
+        }
         // add conditions that should always apply here
 
         $dataProvider = new ActiveDataProvider([
