@@ -1,0 +1,1411 @@
+!SESSION 2020-10-13 09:36:38.124 -----------------------------------------------
+eclipse.buildId=4.17.0.I20200902-1800
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.php.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.php.product
+
+This is a continuation of log file C:\xampp\htdocs\.metadata\.bak_7.log
+Created Time: 2020-10-13 10:00:23.375
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.376
+!MESSAGE HTML Syntax Validator finished validating: file:/C:/xampp/htdocs/lm/vendor/fortawesome/font-awesome/src/3.2.1/icon/youtube-play/index.html
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.378
+!MESSAGE 
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validateFile(HTMLValidator.java:331)
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validate(HTMLValidator.java:422)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:351)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.379
+!MESSAGE HTML Syntax Validator finished validating: file:/C:/xampp/htdocs/lm/vendor/fortawesome/font-awesome/src/3.2.1/icon/backward/index.html
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.381
+!MESSAGE 
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validateFile(HTMLValidator.java:331)
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validate(HTMLValidator.java:422)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:351)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.383
+!MESSAGE HTML Syntax Validator finished validating: file:/C:/xampp/htdocs/lm/vendor/fortawesome/font-awesome/src/3.2.1/icon/superscript/index.html
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.384
+!MESSAGE 
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validateFile(HTMLValidator.java:331)
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validate(HTMLValidator.java:422)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:351)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.386
+!MESSAGE HTML Syntax Validator finished validating: file:/C:/xampp/htdocs/lm/vendor/fortawesome/font-awesome/src/3.2.1/icon/angle-up/index.html
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.387
+!MESSAGE 
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validateFile(HTMLValidator.java:331)
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validate(HTMLValidator.java:422)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:351)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.389
+!MESSAGE HTML Syntax Validator finished validating: file:/C:/xampp/htdocs/lm/vendor/fortawesome/font-awesome/src/3.2.1/icon/windows/index.html
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.429
+!MESSAGE 
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validateFile(HTMLValidator.java:331)
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validate(HTMLValidator.java:422)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:351)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.431
+!MESSAGE HTML Syntax Validator finished validating: file:/C:/xampp/htdocs/lm/vendor/fortawesome/font-awesome/src/3.2.1/icon/bolt/index.html
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.435
+!MESSAGE 
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validateFile(HTMLValidator.java:331)
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validate(HTMLValidator.java:422)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:351)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.439
+!MESSAGE HTML Syntax Validator finished validating: file:/C:/xampp/htdocs/lm/vendor/fortawesome/font-awesome/src/3.2.1/icon/th/index.html
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.440
+!MESSAGE 
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validateFile(HTMLValidator.java:331)
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validate(HTMLValidator.java:422)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:351)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.445
+!MESSAGE HTML Syntax Validator finished validating: file:/C:/xampp/htdocs/lm/vendor/fortawesome/font-awesome/src/3.2.1/icon/signin/index.html
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.446
+!MESSAGE 
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validateFile(HTMLValidator.java:331)
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validate(HTMLValidator.java:422)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:351)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.449
+!MESSAGE HTML Syntax Validator finished validating: file:/C:/xampp/htdocs/lm/vendor/fortawesome/font-awesome/src/3.2.1/icon/twitter/index.html
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.451
+!MESSAGE 
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validateFile(HTMLValidator.java:331)
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validate(HTMLValidator.java:422)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:351)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.457
+!MESSAGE HTML Syntax Validator finished validating: file:/C:/xampp/htdocs/lm/vendor/fortawesome/font-awesome/src/3.2.1/icon/sitemap/index.html
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.459
+!MESSAGE 
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validateFile(HTMLValidator.java:331)
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validate(HTMLValidator.java:422)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:351)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.465
+!MESSAGE HTML Syntax Validator finished validating: file:/C:/xampp/htdocs/lm/vendor/fortawesome/font-awesome/src/3.2.1/icon/linkedin/index.html
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.466
+!MESSAGE 
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validateFile(HTMLValidator.java:331)
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validate(HTMLValidator.java:422)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:351)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.468
+!MESSAGE HTML Syntax Validator finished validating: file:/C:/xampp/htdocs/lm/vendor/fortawesome/font-awesome/src/3.2.1/icon/key/index.html
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.470
+!MESSAGE 
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validateFile(HTMLValidator.java:331)
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validate(HTMLValidator.java:422)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:351)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.474
+!MESSAGE HTML Syntax Validator finished validating: file:/C:/xampp/htdocs/lm/vendor/fortawesome/font-awesome/src/3.2.1/icon/unlock/index.html
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.476
+!MESSAGE 
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validateFile(HTMLValidator.java:331)
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validate(HTMLValidator.java:422)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:351)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.478
+!MESSAGE HTML Syntax Validator finished validating: file:/C:/xampp/htdocs/lm/vendor/fortawesome/font-awesome/src/3.2.1/icon/stackexchange/index.html
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.590
+!MESSAGE 
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validateFile(HTMLValidator.java:331)
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validate(HTMLValidator.java:422)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:351)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.593
+!MESSAGE HTML Syntax Validator finished validating: file:/C:/xampp/htdocs/lm/vendor/fortawesome/font-awesome/src/3.2.1/icon/xing-sign/index.html
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.596
+!MESSAGE 
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validateFile(HTMLValidator.java:331)
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validate(HTMLValidator.java:422)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:351)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.598
+!MESSAGE HTML Syntax Validator finished validating: file:/C:/xampp/htdocs/lm/vendor/fortawesome/font-awesome/src/3.2.1/icon/rss/index.html
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.607
+!MESSAGE 
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validateFile(HTMLValidator.java:331)
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validate(HTMLValidator.java:422)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:351)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.616
+!MESSAGE HTML Syntax Validator finished validating: file:/C:/xampp/htdocs/lm/vendor/fortawesome/font-awesome/src/3.2.1/icon/youtube/index.html
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.620
+!MESSAGE 
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validateFile(HTMLValidator.java:331)
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validate(HTMLValidator.java:422)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:351)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.625
+!MESSAGE HTML Syntax Validator finished validating: file:/C:/xampp/htdocs/lm/vendor/fortawesome/font-awesome/src/3.2.1/icon/maxcdn/index.html
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.629
+!MESSAGE 
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validateFile(HTMLValidator.java:331)
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validate(HTMLValidator.java:422)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:351)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.651
+!MESSAGE HTML Syntax Validator finished validating: file:/C:/xampp/htdocs/lm/vendor/fortawesome/font-awesome/src/3.2.1/icon/gbp/index.html
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.655
+!MESSAGE 
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validateFile(HTMLValidator.java:331)
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validate(HTMLValidator.java:422)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:351)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.657
+!MESSAGE HTML Syntax Validator finished validating: file:/C:/xampp/htdocs/lm/vendor/fortawesome/font-awesome/src/3.2.1/icon/headphones/index.html
+
+!ENTRY org.eclipse.wst.validation 4 0 2020-10-13 10:00:23.658
+!MESSAGE 
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validateFile(HTMLValidator.java:331)
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validate(HTMLValidator.java:422)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:351)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.console 4 2 2020-10-13 10:00:23.817
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.console.TextConsole.init(TextConsole.java:200)
+	at org.eclipse.ui.console.AbstractConsole.initialize(AbstractConsole.java:242)
+	at org.eclipse.ui.console.AbstractConsole$Lifecycle.consolesAdded(AbstractConsole.java:64)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:153)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:174)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:251)
+	at org.eclipse.ui.internal.console.ConsoleManager.addConsoles(ConsoleManager.java:218)
+	at org.eclipse.lsp4e.ServerMessageHandler.findConsole(ServerMessageHandler.java:178)
+	at org.eclipse.lsp4e.ServerMessageHandler.logMessage(ServerMessageHandler.java:120)
+	at org.eclipse.lsp4e.LanguageClientImpl.lambda$0(LanguageClientImpl.java:79)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1800)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1792)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY org.eclipse.core.jobs 4 2 2020-10-13 10:00:24.020
+!MESSAGE An internal error occurred during: "Initialize Language Servers for flot.html".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.lsp4e.LanguageServerPlugin.logError(LanguageServerPlugin.java:67)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:604)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2.run(ConnectDocumentToLanguageServerSetupParticipant.java:75)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2020-10-13 10:00:24.023
+!MESSAGE An internal error occurred during: "Initialize Language Servers for pace.html".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.lsp4e.LanguageServerPlugin.logError(LanguageServerPlugin.java:67)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:604)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2.run(ConnectDocumentToLanguageServerSetupParticipant.java:75)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2020-10-13 10:00:24.024
+!MESSAGE An internal error occurred during: "Initialize Language Servers for buttons.html".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.lsp4e.LanguageServerPlugin.logError(LanguageServerPlugin.java:67)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:604)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2.run(ConnectDocumentToLanguageServerSetupParticipant.java:75)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2020-10-13 10:00:24.026
+!MESSAGE An internal error occurred during: "Initialize Language Servers for general.html".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.lsp4e.LanguageServerPlugin.logError(LanguageServerPlugin.java:67)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:604)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2.run(ConnectDocumentToLanguageServerSetupParticipant.java:75)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2020-10-13 10:00:24.027
+!MESSAGE An internal error occurred during: "Initialize Language Servers for advanced.html".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.lsp4e.LanguageServerPlugin.logError(LanguageServerPlugin.java:67)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:604)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2.run(ConnectDocumentToLanguageServerSetupParticipant.java:75)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2020-10-13 10:00:24.028
+!MESSAGE An internal error occurred during: "Initialize Language Servers for compose.html".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.lsp4e.LanguageServerPlugin.logError(LanguageServerPlugin.java:67)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:604)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2.run(ConnectDocumentToLanguageServerSetupParticipant.java:75)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2020-10-13 10:00:24.029
+!MESSAGE An internal error occurred during: "Initialize Language Servers for modals.html".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.lsp4e.LanguageServerPlugin.logError(LanguageServerPlugin.java:67)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:604)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2.run(ConnectDocumentToLanguageServerSetupParticipant.java:75)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2020-10-13 10:00:24.030
+!MESSAGE An internal error occurred during: "Initialize Language Servers for mailbox.html".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.lsp4e.LanguageServerPlugin.logError(LanguageServerPlugin.java:67)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:604)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2.run(ConnectDocumentToLanguageServerSetupParticipant.java:75)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2020-10-13 10:00:24.032
+!MESSAGE An internal error occurred during: "Initialize Language Servers for inline.html".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.lsp4e.LanguageServerPlugin.logError(LanguageServerPlugin.java:67)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:604)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2.run(ConnectDocumentToLanguageServerSetupParticipant.java:75)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2020-10-13 10:00:24.033
+!MESSAGE An internal error occurred during: "Initialize Language Servers for simple.html".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.lsp4e.LanguageServerPlugin.logError(LanguageServerPlugin.java:67)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:604)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2.run(ConnectDocumentToLanguageServerSetupParticipant.java:75)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2020-10-13 10:00:24.035
+!MESSAGE An internal error occurred during: "Initialize Language Servers for data.html".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.lsp4e.LanguageServerPlugin.logError(LanguageServerPlugin.java:67)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:604)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2.run(ConnectDocumentToLanguageServerSetupParticipant.java:75)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.console 4 2 2020-10-13 10:00:24.130
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.console.TextConsole.init(TextConsole.java:200)
+	at org.eclipse.ui.console.AbstractConsole.initialize(AbstractConsole.java:242)
+	at org.eclipse.ui.console.AbstractConsole$Lifecycle.consolesAdded(AbstractConsole.java:64)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:153)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:174)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:251)
+	at org.eclipse.ui.internal.console.ConsoleManager.addConsoles(ConsoleManager.java:218)
+	at org.eclipse.lsp4e.ServerMessageHandler.findConsole(ServerMessageHandler.java:178)
+	at org.eclipse.lsp4e.ServerMessageHandler.logMessage(ServerMessageHandler.java:120)
+	at org.eclipse.lsp4e.LanguageClientImpl.lambda$0(LanguageClientImpl.java:79)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1800)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1792)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY org.eclipse.ui.console 4 2 2020-10-13 10:00:24.133
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.console.TextConsole.init(TextConsole.java:200)
+	at org.eclipse.ui.console.AbstractConsole.initialize(AbstractConsole.java:242)
+	at org.eclipse.ui.console.AbstractConsole$Lifecycle.consolesAdded(AbstractConsole.java:64)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:153)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:174)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:251)
+	at org.eclipse.ui.internal.console.ConsoleManager.addConsoles(ConsoleManager.java:218)
+	at org.eclipse.lsp4e.ServerMessageHandler.findConsole(ServerMessageHandler.java:178)
+	at org.eclipse.lsp4e.ServerMessageHandler.logMessage(ServerMessageHandler.java:120)
+	at org.eclipse.lsp4e.LanguageClientImpl.lambda$0(LanguageClientImpl.java:79)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1800)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1792)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:24.954
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:24.956
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:24.958
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:24.959
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:24.960
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:24.963
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:24.965
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:24.967
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:24.969
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:24.973
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:24.974
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:24.976
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:24.978
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:24.979
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:24.981
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:24.983
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:24.985
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:24.987
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:24.988
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:24.989
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:24.991
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.113
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.115
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.116
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.118
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.120
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.123
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.126
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.128
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.130
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.131
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.133
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.136
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.137
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.139
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.140
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.142
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.144
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.145
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.147
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.148
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.149
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.226
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 4 2 2020-10-13 10:00:25.228
+!MESSAGE An internal error occurred during: "Initialize Language Servers for collapsed-sidebar.html".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.lsp4e.LanguageServerPlugin.logError(LanguageServerPlugin.java:67)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:604)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2.run(ConnectDocumentToLanguageServerSetupParticipant.java:75)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2020-10-13 10:00:25.230
+!MESSAGE An internal error occurred during: "Initialize Language Servers for index2.html".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.lsp4e.LanguageServerPlugin.logError(LanguageServerPlugin.java:67)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:604)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2.run(ConnectDocumentToLanguageServerSetupParticipant.java:75)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2020-10-13 10:00:25.231
+!MESSAGE An internal error occurred during: "Initialize Language Servers for index.html".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.lsp4e.LanguageServerPlugin.logError(LanguageServerPlugin.java:67)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:604)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2.run(ConnectDocumentToLanguageServerSetupParticipant.java:75)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2020-10-13 10:00:25.233
+!MESSAGE An internal error occurred during: "Initialize Language Servers for boxed.html".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.lsp4e.LanguageServerPlugin.logError(LanguageServerPlugin.java:67)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:604)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2.run(ConnectDocumentToLanguageServerSetupParticipant.java:75)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.234
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.236
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.237
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.239
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.240
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.241
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.243
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.244
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.246
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.247
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.249
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.251
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.253
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.255
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.256
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.258
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.259
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.262
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.264
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.265
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.426
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.428
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.435
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.438
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.439
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.441
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.444
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.445
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.447
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.448
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.450
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.454
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.457
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.459
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.461
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.464
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.466
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.468
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.470
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.475
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.547
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.549
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.554
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.555
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.589
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.590
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.594
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.596
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.597
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.598
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.600
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.604
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.607
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.608
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.610
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.wst.validation.internal.ValBuilderJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.614
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.616
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.619
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.624
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.626
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.685
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.687
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.688
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.690
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.692
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.693
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.695
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.696
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.697
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.699
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.701
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.703
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.705
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.706
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.707
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.709
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.710
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.713
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.714
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.716
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.718
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.720
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.723
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.789
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.791
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.795
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.797
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.804
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.806
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.807
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.808
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.828
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.831
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.835
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.837
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.838
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.840
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.843
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.845
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.846
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.847
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.849
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.850
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.854
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.855
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.926
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.927
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.937
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.955
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.958
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.959
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.962
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.963
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.965
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.967
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.969
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.971
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.974
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.975
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.977
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.979
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.980
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:25.982
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:26.086
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:26.088
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:26.089
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:26.094
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:26.096
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:26.098
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:26.099
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:26.105
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:26.106
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:26.108
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.wst.validation.internal.ValBuilderJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:26.109
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:26.114
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:26.116
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:26.120
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:26.123
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:26.125
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:26.126
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:26.128
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:26.129
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:26.130
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:26.136
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:26.137
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.ui.console 4 2 2020-10-13 10:00:26.199
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.console.TextConsole.init(TextConsole.java:200)
+	at org.eclipse.ui.console.AbstractConsole.initialize(AbstractConsole.java:242)
+	at org.eclipse.ui.console.AbstractConsole$Lifecycle.consolesAdded(AbstractConsole.java:64)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:153)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:174)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:251)
+	at org.eclipse.ui.internal.console.ConsoleManager.addConsoles(ConsoleManager.java:218)
+	at org.eclipse.lsp4e.ServerMessageHandler.findConsole(ServerMessageHandler.java:178)
+	at org.eclipse.lsp4e.ServerMessageHandler.logMessage(ServerMessageHandler.java:120)
+	at org.eclipse.lsp4e.LanguageClientImpl.lambda$0(LanguageClientImpl.java:79)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1800)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1792)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:26.203
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:26.207
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:26.209
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:26.210
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:26.216
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:26.223
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:26.225
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:26.226
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:26.228
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-10-13 10:00:26.230
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2

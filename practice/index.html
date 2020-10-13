@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="B.css/bootstrap.min.css">
+    <link rel="stylesheet" href="B.css/bmi.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body><div class="container">
+  <div class="row">
+  <div class="col-md-4 col-sm-4">Calculator</div>
+   <div class="col-md-1 col-sm-1">Tax 
+   </div>
+    <div class="col-md-1 col-sm-1">Mobile</div>
+    <div class="col-md-1 col-sm-1">Loans</div>
+    <div class="col-md-1 col-sm-1">Logistics</div>
+    <div class="col-md-1 col-sm-1">Bank</div>
+    <div class="col-md-1 col-sm-1">Health</div>
+    <div class="col-md-1 col-sm-1">Tarrifs</div>
+    <div class="col-md-1 col-sm-1">Blogs</div>
+    
+
+
+	<div class="boxholder shadow p-3 col-sm-6 bg-white rounded center">
+    <form class="center" id="bmiform">
+      <h1>BMI CALCULATORS</h1>
+      <h4>How much should i weigh for my height?</h4>
+  <div class="form-group">
+    <label for="heightweight">Height:</label>
+    <input type="text" class="form-control" id="height" name="height" placeholder="Height in CM" >
+    
+  </div>
+  <label for="heightweight">Weight:</label>
+    <input type="text" class="form-control" id="weight" name="weight" placeholder="Weight in KGs" >
+    <button type="submit" id="calculate" class="btn btn-outline-success btn-block">Calculate</button>
+    <button type="clear" class="btn btn-outline-danger btn-block">Clear</button>
+        <div class="card">
+  <div class="card-body">BMI:
+    <div id="result" class="float-right"></div>
+</div>
+<div class="card">
+  <div class="card-body">Weight:
+   <div id="weightresult" class="float-right"></div></div>
+</div><br>
+    <!--  -->
+     <input type="email" class="form-control" id="inputemail" placeholder="Enter Email Address">
+     <button type="email" class="btn-success btn-block">Email</button>
+    </div>
+
+    
+    
+ 
+  
+      
+  
+</form></div>
+
+
+   
+
+
+   
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="B.Js/bootstrap.min.js"></script>
+    <script src="B.Js/bootstrap2.min.js"></script>
+    <script src="B.Js/bootstrap3.min.js"></script>
+     <script src="B.Js/jQuery.js"></script>
+    <script>
+    (function($){
+        function processForm( e ){
+            $.ajax({
+                url: 'functions/bmi.php',
+                dataType: 'text',
+                type: 'post',
+                contentType: 'application/x-www-form-urlencoded',
+                data: $(this).serialize(),
+                success: function( data, textStatus, jQxhr ){
+                    $('#result').html( data );
+                },
+                error: function( jqXhr, textStatus, errorThrown ){
+                    console.log( errorThrown );
+                }
+            });
+
+            e.preventDefault();
+        }
+
+        $('#bmiform').submit( processForm );
+
+         function checkstatus( e ){
+            $.ajax({
+                url: 'functions/weightstatus.php',
+                dataType: 'text',
+                type: 'post',
+                contentType: 'application/x-www-form-urlencoded',
+                data: $(this).serialize(),
+                success: function( data, textStatus, jQxhr ){
+                    $('#weightresult').html( data );
+                },
+                error: function( jqXhr, textStatus, errorThrown ){
+                    console.log( errorThrown );
+                }
+            });
+
+            e.preventDefault();
+        }
+        $('#bmiform').submit( checkstatus );
+
+    })(jQuery);
+</script>
+  </body>
+</html>
